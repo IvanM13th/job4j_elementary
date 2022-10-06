@@ -8,7 +8,7 @@ public class DivideBySixTest {
     public void whenNumberDivideBy6() {
         int in = 24;
         String result = DivideBySix.checkNumber(in);
-        String expected = "the number can be divided by 6.";
+        String expected = "the number can be divided by 6";
         assertThat(result).isEqualTo(expected);
     }
 
