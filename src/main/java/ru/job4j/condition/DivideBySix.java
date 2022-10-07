@@ -5,9 +5,9 @@ public class DivideBySix {
         String rsl;
         if (number % 3 == 0 && number % 2 == 0) {
             rsl = "the number can be divided by 6";
-        } else if (number % 3 == 0 && number % 2 != 0) {
+        } else if (number % 3 == 0) {
             rsl = "the number can be divided by 3, but non even.";
-        } else if (number % 3 != 0 && number % 2 == 0) {
+        } else if (number % 2 == 0) {
             rsl = "the number can't be divided by 3, but even.";
         } else {
             rsl = "the number can't be divided by 3 and not even.";
