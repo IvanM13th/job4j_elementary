@@ -24,7 +24,7 @@ public class FindLoopTest {
         }
 
         @Test
-        public void whenArrayHas6Then4() {
+        public void whenArrayHas6Then3() {
             int[] data = new int[] {1, 2, 3, 6};
             int el = 6;
             int result = FindLoop.indexOf(data, el);
